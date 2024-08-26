@@ -1,6 +1,6 @@
 // MYSQL
 /*   
-  docker run --name=my-mysql -e MYSQL_ROOT_PASSWORD=jmrxejgv13 --detach --publish 3306:3306 mysql:5.7.24
+  docker run --name=my-mysql -e MYSQL_ROOT_PASSWORD= --detach --publish 3306:3306 mysql:5.7.24
 
   --name=my-mysql => name of the database 
   -e MYSQL_ROOT_PASSWORD=jmrxejgv13 => -e = enviromental variables; 
